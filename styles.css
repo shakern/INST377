@@ -1,0 +1,63 @@
+body{
+    background-color: #444554;
+    color: #E5D0CC;
+    
+}
+.container {
+    padding-left: 20%;
+    padding-right: 20%;
+    text-align: center;
+    font-family: "Georgia";
+}
+.container #pwe{
+    font-family: myFirstFont;
+    font-weight: normal;
+}
+.container #pt1{
+    background-image: url("leaves.jpeg");
+    margin: 0px auto;
+    padding: 1px;
+    color: #E5D0CC;
+}
+
+#splunk{
+    border: 10px dotted #BFACB5;
+    padding: 15px;
+    background: #7F7B82;
+}
+.container #stitle{
+    letter-spacing: 3px;
+}
+
+.container #btitle{
+    letter-spacing: 3px;
+}
+
+.container #ttitle{
+    letter-spacing: 3px;
+}
+
+#blaze{
+    border: 10px dotted #BFACB5;
+    padding: 15px;
+    background: #7F7B82
+}
+
+#tech{
+    border: 10px dotted #BFACB5;
+    padding: 15px;
+    background: #7F7B82
+}
+
+.smallSize{
+    border-radius: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width:220px;
+    height:250px;
+}
+
+ul{
+    list-style-type: circle;
+    text-align:center;
+    list-style-position: inside;
+  }
