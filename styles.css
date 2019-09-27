@@ -1,5 +1,14 @@
+@keyframes example {
+    0% {background-color:#444554;}
+    25% {background-color: #666673;}
+    50% {background-color:#444554;}
+    100% {background-color: #666673;}
+  }
+
 body{
     background-color: #444554;
+    animation-name: example;
+    animation-duration: 100s;
     color: #E5D0CC;
     
 }
@@ -12,8 +21,8 @@ body{
 
 
 .container #header{
-    font-family: myFirstFont;
     font-weight: normal;
+    text-decoration: underline;
 }
 
 .container #pt1{
