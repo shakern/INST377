@@ -9,10 +9,13 @@ body{
     text-align: center;
     font-family: "Georgia";
 }
-.container #pwe{
+
+
+.container #header{
     font-family: myFirstFont;
     font-weight: normal;
 }
+
 .container #pt1{
     background-image: url("leaves.jpeg");
     margin: 0px auto;
@@ -24,32 +27,47 @@ body{
     border: 10px dotted #BFACB5;
     padding: 15px;
     background: #7F7B82;
+    transform: rotate(1deg);
 }
-.container #stitle{
+.container #splunktitle{
     letter-spacing: 3px;
 }
 
-.container #btitle{
+#splunkbullet{
+    font-size: 14px;
+}
+
+#blazebullet{
+    font-size: 14px;
+}
+
+#techbullet{
+    font-size: 14px;
+}
+
+.container #blazetitle{
     letter-spacing: 3px;
 }
 
-.container #ttitle{
+.container #techtitle{
     letter-spacing: 3px;
 }
 
 #blaze{
     border: 10px dotted #BFACB5;
     padding: 15px;
-    background: #7F7B82
+    background: #7F7B82;
+    transform: rotate(-1deg);
 }
 
 #tech{
     border: 10px dotted #BFACB5;
     padding: 15px;
-    background: #7F7B82
+    background: #7F7B82;
+    transform: rotate(1deg);
 }
 
-.smallSize{
+.photo{
     border-radius: 50%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     width:220px;
